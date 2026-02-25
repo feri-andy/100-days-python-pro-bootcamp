@@ -1,3 +1,6 @@
 # 100-days-python-pro-bootcamp
 Angela Yu's 100 Days of Code™: The Complete Python Pro Bootcamp
+
 Self Journey Records
+
+This Is Intended To Motivate And Keep The Learning Track
