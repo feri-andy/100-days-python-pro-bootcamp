@@ -1,0 +1,1 @@
+# output ke konsol => print()
