@@ -1,1 +1,3 @@
-# output ke konsol => print()
+print("Siapa nama kamu?")
+namaSaya = input()
+print("Halo, " + namaSaya)

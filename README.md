@@ -1,6 +1,7 @@
 # 100-days-python-pro-bootcamp
+Berdasarkan Online Course Udemy
 Angela Yu's 100 Days of Code™: The Complete Python Pro Bootcamp
 
-Self Journey Records
+Repo ini dimaksudkan sebagai catatan progres belajar.
 
-This Is Intended To Motivate And Keep The Learning Track
+Anda bebas untuk mengikuti bersama saya.

@@ -1,3 +1,11 @@
+# Konsep Hari 1
+- Mencetak ke Konsol di Python
+- Manipulasi String dan Kecerdasan Kode
+- Debugging
+- Fungsi Input Python
+- Variabel Python
+- Penamaan Variabel
+
 # 1. Latihan Printing
 Buatlah program yang menggunakan pernyataan print untuk mencetak resep berikut ke konsol Output.
 Teks yang akan dicetak sudah ada, Anda hanya perlu mengubahnya menjadi kode.
@@ -12,7 +20,7 @@ Pastikan Anda tidak mengubah teks yang sudah ada karena semuanya, termasuk tanda
 
     
 # 2. Latihan Debugging 
-Terdapat kesalahan pada kelima baris kode tersebut.
+Terdapat kesalahan pada kelima baris kode di bawah.
 Perbaiki kode agar dapat berjalan tanpa kesalahan.
 Cobalah untuk menjalankan kode dan perbaiki setiap baris menggunakan pesan kesalahan dan umpan balik.
 

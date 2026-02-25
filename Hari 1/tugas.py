@@ -6,3 +6,9 @@
     4. combine the name of their city and pet and show them their band name
 """
 
+print("Selamat datang di aplikasi penyusun nama band.")
+print("Apa makanan favorit kamu?")
+makanan = input()
+print("Apa warna kesukaan kamu?")
+warna = input()
+print("Saran nama untuk band kamu adalah: " + makanan + " " + warna + "!")
