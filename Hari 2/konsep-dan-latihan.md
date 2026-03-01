@@ -8,7 +8,7 @@
     3. Float => 123.45
     4. Booleans => True / False
     ```
-- Kesalahan Tipe, Pemeriksaan Tipe, dan Konversi Tipe\
+- Kesalahan Tipe, Pemeriksaan Tipe, dan Konversi Tipe
     ```shell
     print("jumlah karakter: " + len("manusia")) ❌
 
@@ -23,7 +23,7 @@
     print("jumlah karakter: " + str(len("manusia"))) ✔️
     ```
 - Tipe Data
-- Operasi Matematika di Python\
+- Operasi Matematika di Python
     ```
     operator pembagi menjadi 'int' tanpa desimal => //  
     operator kuadrat => **
