@@ -1,5 +1,8 @@
-tagihan = 500
-tips = 10
-orang = 3
-final = round((tagihan + (tagihan*(tips/100)))/orang,5)
-print(type(tagihan))
+height = 1.65 
+weight = 84
+
+# Write your code here.
+# Calculate the bmi using weight and height.
+bmi = weight / (height ** 2)
+
+print(round(bmi, 2))
