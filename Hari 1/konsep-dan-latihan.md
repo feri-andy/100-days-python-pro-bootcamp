@@ -1,4 +1,6 @@
 # Hari 1: Bekerja Dengan Variabel
+
+## Konsep yang dipraktikkan
 - Mencetak ke Konsol di Python
 - Manipulasi String dan Kecerdasan Kode
 - Debugging

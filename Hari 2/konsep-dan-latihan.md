@@ -1,4 +1,6 @@
 # Hari 2: Memahami Jenis Data dan Cara Memanipulasi String
+
+## Konsep yang dipraktikkan
 - Tipe Data Primitif Python
     ```
     1. String => "kata-kata"

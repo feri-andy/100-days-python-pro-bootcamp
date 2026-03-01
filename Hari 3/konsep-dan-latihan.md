@@ -1,4 +1,6 @@
 # Hari 3: Alur Kontrol dan Operator Logika
+
+## Konsep yang dipraktikkan
 - Alur Kontrol dengan `if/else` dan Operator Kondisional
     
     ```python
@@ -74,6 +76,16 @@
             print("Minum susu yang banyak biar tambah tinggi.")
     ```
 - Operator Logika
+    - `and`
+        >True `and` True = True\
+        >True `and` False = False
+        
+    - `or`
+        >True `or` False = True\
+        >False `or` False = False
+    - `not`
+        >`not` True = False\
+        >`not` False = True
 
 # ⚠️NOTE! Indentasi harus selalu diperhatikan!
 ## Latihan 1 [Operator Modulo]
