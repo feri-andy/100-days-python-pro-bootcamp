@@ -1,19 +1,25 @@
-print("Selamat datang di pulau Kamidi.\nMisi anda adalah mencari peti harta karun di pulau ini.")
-pilih1 = input("Kamu berada di sebuah persimpangan, jalan mana yang kamu pilih? Kanan atau Kiri? ").lower()
+print("Selamat datang di pulau Kamidi.\nMisi anda adalah mencari peta harta karun di pulau ini.")
+pilihan1 = input("Kamu sekarang berada di sebuah persimpangan, jalan mana yang kamu pilih? Kanan atau kiri? ").lower()
 
-if pilih1 == "kiri":
-    print("Kamu sekarang berada di bibir sungai yang lebar dan mengalir deras. Apa yang akan kamu lakukan selanjutnya? Menunggu ada kapal yang lewat atau berenang. Ketik tunggu atau renang")
-    pilih2 = input().lower()
-    if pilih2 == "tunggu":
-        print("Kamu dihadapkan dengan 3 buah pintu yang harus kamu pilih salah satu. Merah, kuning, atau biru. Pintu manakah yang akan membawamu ke peti harta karun?")
-        pilih3 = input().lower()
-        if pilih3 == "merah":
-            print("Saat kamu berada dalam ruangan pintu merah, api tiba-tiba muncul dari sela dinding.\nSemburan api mengenai tubuh, dan memenuhi satu ruangan.\nKamu tidak bisa mengelak, tubuhmu hangus terbakar karena memilih pintu merah.\nKamu menjadi arang\nPermainan selesai.")
-        elif pilih3 == "biru":
-            print("Saat kamu berada dalam ruangan pintu biru, tiba-tiba pintu menutup sendiri dan terkunci.\nDi seberang, terbuka sebuah pintu besar, kemudian terlihat sosok-sosok binatang buas. Dengan sorot mata lapar.\nMereka menerkammu, mencabik-cabik tubuhmu, dan memperebutkan daging segarmu.\nKamu mati dimakan binatang buas.\nPermainan selesai.")
+if pilihan1 == "kiri":
+    print("Kamu tiba di sebuah sungai yang lebar.\nApakah kamu akan menunggu ada kapal? Atau nekat berenang? Ketik tunggu atau renang .")
+    pilihan2 = input().lower()
+    if pilihan2 == "tunggu":
+        print("Kamu berhasil menyeberangi sungai dengan kapal. Sekarang dihadapanmu terdapat 3 pintu dengan warna merah, kuning, dan biru.\nPeti harta ada di balik salah satu pintu tersebut.\nPintu mana yang kamu pilih? Ketik merah, kuning, atau biru. ")
+        pilihan3 = input().lower
+        if pilihan3 == "merah":
+            print("Kamu terjebak dalam ruangan penuh dengan api membara.\nKamu menjadi arang gosong.\nGagal. Permainan selesai.")
+        elif pilihan3 == "biru":
+            print("Kamu terjebak dalam ruangan yang berisikan binatang-binatang buas.\nKamu diterkam dan tewas.\nGagal. Permainan selesai")
+        elif pilihan3 == "kuning":
+            print("Selamat! Peti harta kamu temukan!\nPermainan selesai.")
         else:
-            print("Selamat! Kamu mendapatkan harta karunnya.\nNamun bisakah kamu keluar dari pulau ini?")
+            print("Kamu tidak memberikan input yang benar.\nPermainan berakhir.")
+    elif pilihan2 == "renang":
+        print("Kamu nekat berenang, namun tidak disangka sungai tersebut penuh dengan buaya lapar.\nKamu tenggelam dan dimangsa buaya.\nGagal. Permainan selesai.")
     else:
-        print("Kamu nekat berenang menyeberangi sungai, tak disangka terdapat buaya besar yang sudah menanti. Kamu mati dimakan buaya. Permainan selesai.")
+        print("Kamu tidak memberikan input yang benar.\nPermainan berakhir.")
+elif pilihan1 == "kanan":
+    print("Kamu terkena sebuah jebakan beruang.\nGagal. Permainan selesai.")
 else:
-    print("Kamu terkena perangkap beruang, kamu kehabisan darah dan mati. Permainan selesai.")
+    print("Kamu tidak memberikan input yang benar.\nPermainan berakhir.")

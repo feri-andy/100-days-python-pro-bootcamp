@@ -8,4 +8,5 @@ Anda bebas untuk mengikuti bersama saya.
 
 ### Daftar Hari:
 [• Hari 1: Bekerja Dengan Variabel](/Hari%201/konsep-dan-latihan.md)\
-[• Hari 2: Memahami Jenis Data Dan Memanipulasi String](/Hari%202/konsep-dan-latihan.md)
+[• Hari 2: Memahami Jenis Data Dan Memanipulasi String](/Hari%202/konsep-dan-latihan.md)\
+[• Hari 3: Alur Kontrol dan Operator Logika](/Hari%203/konsep-dan-latihan.md)\

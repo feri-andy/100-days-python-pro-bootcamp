@@ -48,7 +48,7 @@
         else:
             print("Minum susu yang banyak biar tambah tinggi.")
     ```
-- ​​Beberapa Pernyataan `if` secara Berurutan\
+- ​​Beberapa Pernyataan `if` secara Berurutan
     ```python
         print("Selamat datang di wahana rollercoaster.")
         tinggi = int(input("Berapa tinggi badan anda? "))
@@ -106,7 +106,6 @@ Jika BMI 25 (termasuk) atau lebih, cetak "kelebihan berat badan"
 
 
 ```
-[solusi](/Hari%203/solusi.md)
 
 ## Latihan 3 [Pizza Order]
 Berdasarkan pesanan pengguna, hitung total tagihan mereka.\
@@ -127,4 +126,3 @@ hint:
 
     # todo: cari tahu berapa tagihan akhir berdasarkan pilihan tambahan ekstra keju
 ```
-[solusi](/Hari%203/solusi.md)

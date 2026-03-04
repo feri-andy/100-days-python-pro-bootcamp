@@ -1,34 +1,55 @@
-# print("Cek ganjil atau genap.")
-# angka = int(input("Masukkan sembarang angka yang anda inginkan. "))
-
-# if angka % 2 == 0:
-#     print(f"Angka {angka} adalah genap")
-# else:
-#     print(f"Angka {angka} adalah ganjil")
-
-print("Selamat datang di wahana rollercoaster.")
-tinggi = int(input("Berapa tinggi badan anda? "))
-bayar = 0
+""" print("Selamat datang di wahana rollercoaster!")
+tinggi = int(input("Berapa tinggi badan kamu? "))
+total_bayar = 0
 
 if tinggi >= 120:
-    print("Anda boleh menaiki wahana.")
-    umur = int(input("Berapa umur anda?"))
-    if umur < 12:
-        bayar = 15000
-        print("Karcis anak-anak: 15000")
+    print("Kamu boleh naik rollercoaster.")
+    umur = int(input("Berapa umur kamu saat ini? "))
+    if umur <= 12:
+        total_bayar = 5000
+        print("Harga tiket: 5000")
     elif umur <= 18:
-        bayar = 20000
-        print("Karcis remaja: 20000")
-    elif umur >= 45 and umur <= 55:
-        print("Anda mendapatkan tiket gratis.")
+        total_bayar = 10000
+        print("Harga tiket: 10000")
     else:
-        print("Karcis dewasa: 30000")
-        bayar = 30000
+        total_bayar = 15000
+        print("Harga tiket: 15000")
 
-    mau_foto = input("Apakah anda menginginkan foto?")
-    if mau_foto == "y":
-        bayar += 5000
-
-    print(f"Total bayar: {bayar}")
+    foto = input("Apa anda ingin berfoto? Y atau T ")
+    if foto == "Y":
+        total_bayar += 5000
+        
+    print(f"Total harga: {total_bayar}")
 else:
-    print("Minum susu yang banyak biar tambah tinggi.")
+    print("Coba lagi saat kamu sudah lebih tinggi.") """
+
+print("Selamat datang di Pizza Hat.")
+print()
+ukuran = input("Pizza ukuran apa yang anda ingin pesan? S, M, atau L ")
+pepperoni = input("Ingin tambahan topping pepperoni? Y atau T ")
+ekstra_keju = input("Tambahan ekstra keju? Y atau T ")
+
+harga = 0
+
+if ukuran == "S":
+    harga += 15000
+elif ukuran == "M":
+    harga += 20000
+elif ukuran == "L":
+    harga += 25000
+else:
+    print("Anda salah memberikan input.")
+
+if pepperoni == "Y":
+    if ukuran == "S":
+        harga += 2000
+    else:
+        harga += 3000
+
+if ekstra_keju == "Y":
+    harga += 1000
+
+print()
+print(f"Total harga: {harga}")
+
+
